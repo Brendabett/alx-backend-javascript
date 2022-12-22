@@ -23,7 +23,7 @@ export class StudentHolberton {
   }
 
   get fullName() {
-    return ;
+    return `${this._firstName} ${this._lastName}`;
   }
 
   get holbertonClass() {
@@ -31,7 +31,7 @@ export class StudentHolberton {
   }
 
   get fullStudentDescription() {
-    return ;
+    return `${this.fullName} - ${this.holbertonClass.year} - ${this.holbertonClass.location}`;
   }
 }
 
